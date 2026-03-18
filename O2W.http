@@ -1,0 +1,6 @@
+@O2W_HostAddress = http://localhost:5092
+
+GET {{O2W_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
