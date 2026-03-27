@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amersb\\source\\repos\\O2W\\O2W.csproj": {}
+    "/Users/amersb/RiderProjects/Leven-op-twee-wielen/O2W.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amersb\\source\\repos\\O2W\\O2W.csproj": {
+    "/Users/amersb/RiderProjects/Leven-op-twee-wielen/O2W.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amersb\\source\\repos\\O2W\\O2W.csproj",
+        "projectUniqueName": "/Users/amersb/RiderProjects/Leven-op-twee-wielen/O2W.csproj",
         "projectName": "O2W",
-        "projectPath": "C:\\Users\\amersb\\source\\repos\\O2W\\O2W.csproj",
-        "packagesPath": "C:\\Users\\amersb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amersb\\source\\repos\\O2W\\obj\\",
+        "projectPath": "/Users/amersb/RiderProjects/Leven-op-twee-wielen/O2W.csproj",
+        "packagesPath": "/Users/amersb/.nuget/packages/",
+        "outputPath": "/Users/amersb/RiderProjects/Leven-op-twee-wielen/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\amersb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/amersb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +39,26 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -75,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
