@@ -7,7 +7,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\EventRegistrations\" />
+    <Folder Include="Controllers\Event\" />
+    <Folder Include="Controllers\Rating\" />
+    <Folder Include="Controllers\RiderProfile\" />
+    <Folder Include="Controllers\Route\" />
+    <Folder Include="Controllers\User\" />
+    <Folder Include="Services\EventRegistrations\" />
+    <Folder Include="Services\Event\" />
+    <Folder Include="Services\Rating\" />
+    <Folder Include="Services\RiderProfile\" />
+    <Folder Include="Services\Route\" />
+    <Folder Include="Services\User\" />
   </ItemGroup>
 
 </Project>
